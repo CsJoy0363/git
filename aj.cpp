@@ -1,8 +1,10 @@
 #include<iostream>
 using namespace std;
 int main() {
-    cout << "Hello World!";
-    cout << "CryptoSky platform";
-    cout << "AJ Coder";
+    float annualSalary;
+    cout << "Enter Your Annual Salary :";
+    cin >> annualSalary;
+    float monthlySalary = annualSalary/12;
+    cout << "Your Monthly Salary Is : " <<monthlySalary;
     return 0;
 }
